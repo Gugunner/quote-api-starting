@@ -8,10 +8,11 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <h1>Quote API</h1>
+  <h1>Quote/Fragment API</h1>
   <nav>
     <a href="index.html">Home</a>
-    <a href="add-quote.html">Add a New Quote</a>
+    <a href="add-data.html">Add a New Data</a>
+    <a href="update-data.html">Update Data</a>
   </nav>
   <h2>Get Quotes</h2>
   <div class="request-buttons">
@@ -24,7 +25,18 @@
       <button id="fetch-by-author">Fetch by Author</button>
     </div>
   </div>
-  <div id="quote-container">
+  <h2>Get Fragments</h2>
+  <div class="request-buttons">
+    <div>
+      <button id="fetch-random-fragment">Fetch a Random Fragment</button>
+      <button id="fetch-fragments">Fetch all Fragments</button>
+    </div>
+    <div>
+      <input id="person" value="">
+      <button id="fetch-by-person">Fetch by Person</button>
+    </div>
+  </div>
+  <div id="data-container">
     
   </div>
   <script src="script.js"></script>

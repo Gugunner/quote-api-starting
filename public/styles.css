@@ -53,15 +53,15 @@ button:hover {
   transition: background-color 0.2s;
 }
 
-#quote-container {
+#data-container {
   padding: 10px;
   width: 60%;
 }
 
-.single-quote {
+.single-data {
   padding: 10px;
 }
 
-.quote-text {
+.data-text {
   font-style: italic;
 }
